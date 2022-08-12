@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main( String[] args ) {
 
-        boolean check = CheckMethod.CheckEnter("sky_pro_2022", "sky_2022", "sky_2022");
+        boolean check = CheckMethod.checkEnter("sky_pro_2022", "sky_2022", "sky_2022");
         System.out.println(check);
     }
 }
